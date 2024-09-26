@@ -19,7 +19,7 @@ const Otp = () => {
   return (
     <div className="w-full h-screen flex  justify-center items-center  bg-black text-white">
         <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h2>Your OTP</h2>
+      <h2>Your Passcode/PIN</h2>
 
      <div className="flex items-center justify-center">
         <div style={{ fontSize: '24px', marginBottom: '20px', fontWeight: 'bold' }} className="bg px-4 py-2 flex">
@@ -30,7 +30,7 @@ const Otp = () => {
      </div>
 
       <button onClick={generatePasscode} style={{ padding: '10px 20px', fontSize: '20px' }} className="bg-green-500 hover:bg-green-600 rounded-lg">
-        Generate OTP
+        Generate Passcord/PIN
       </button>
     </div>
 
